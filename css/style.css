@@ -1,0 +1,56 @@
+html {
+    scroll-padding-top: 4rem;
+}
+
+.masthead {
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+a {
+    text-shadow: none;
+}
+
+.hero-title {
+    font-size: 3rem;
+}
+
+.hero-subtitle {
+    font-size: 1rem;
+}
+
+.color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.testimonials, .reinforcement-stmt, .closing-argument {
+    background-color: #ebeaef;
+}
+
+#features {
+    background-color: #f4cb62;
+}
+
+.juice-green {
+    transform: rotate(-10deg);
+}
+
+#benefit {
+    background-color: #c7dc8d;
+}
+
+@media (max-width: 768px) {
+    .masthead {
+        min-height: 45vh;
+    }
+    .hero-title, .hero-subtitle {
+        font-size: calc(1.125rem + 3.3vw);
+    }
+}
