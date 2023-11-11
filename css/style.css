@@ -46,7 +46,7 @@ a {
     transform: rotate(-10deg);
 }
 
-#benefit {
+#benefit, feature-card {
     background-color: #9FBB73;
 }
 
