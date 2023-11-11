@@ -34,9 +34,9 @@ a {
     background-color: rgba(0, 0, 0, .2);
 } */
 
-.testimonials, #reinforcement-stmt, #closing-argument {
+/* .testimonials, #reinforcement-stmt, #closing-argument {
     background-color: #FFFFFF;
-}
+} */
 
 #features {
     background-color: #F3B664;
@@ -78,7 +78,7 @@ a {
     .hero-image {
         height: 300px;
     }
-    .hero-title, .hero-subtitle {
+    .hero-title, .hero-subtitle, .hero-price {
         font-size: calc(1.125rem + 3.3vw);
     }
     .juice-green {
