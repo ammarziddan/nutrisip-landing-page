@@ -2,14 +2,14 @@ html {
     scroll-padding-top: 4rem;
 }
 
-.masthead {
+/* .masthead {
     background-size: cover;
-    background-position: center;
+    background-position: right;
     min-height: 70vh;
     position: relative;
     color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
-}
+} */
 
 a {
     text-shadow: none;
@@ -23,19 +23,23 @@ a {
     font-size: 1rem;
 }
 
-.color-overlay {
+.hero-price {
+    font-size: 1.5rem;
+}
+
+/* .color-overlay {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, .3);
-}
+    background-color: rgba(0, 0, 0, .2);
+} */
 
-.testimonials, .reinforcement-stmt, .closing-argument {
-    background-color: #ebeaef;
+.testimonials, #reinforcement-stmt, #closing-argument {
+    background-color: #FFFFFF;
 }
 
 #features {
-    background-color: #f4cb62;
+    background-color: #F3B664;
 }
 
 .juice-green {
@@ -43,14 +47,44 @@ a {
 }
 
 #benefit {
-    background-color: #c7dc8d;
+    background-color: #9FBB73;
+}
+
+.spacer {
+    aspect-ratio: 900/150;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.orange-wave-1 {
+    background-image: url('../img/waves/orange-transition1.svg');
+}
+.orange-wave-2 {
+    background-image: url('../img/waves/orange-transition2.svg');
+}
+.green-wave-1 {
+    background-image: url('../img/waves/green-transition1.svg');
+}
+.green-wave-2 {
+    background-image: url('../img/waves/green-transition2.svg');
 }
 
 @media (max-width: 768px) {
-    .masthead {
+    /* .masthead {
         min-height: 45vh;
+    } */
+    .hero-image {
+        height: 300px;
     }
     .hero-title, .hero-subtitle {
         font-size: calc(1.125rem + 3.3vw);
+    }
+    .juice-green {
+        height: 200px;
+    }
+    .juice-combine {
+        height: 200px;
     }
 }
