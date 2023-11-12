@@ -1,3 +1,4 @@
+/* General */
 html {
     scroll-padding-top: 4rem;
 }
@@ -11,10 +12,22 @@ html {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
 } */
 
+/* Button */
 a {
     text-shadow: none;
 }
 
+.btn {
+    position: relative;
+    top: 0;
+    transition: top ease 0.2s;
+}
+
+.btn:hover {
+    top: -5px;
+}
+
+/* Hero Section */
 .hero-title {
     font-size: 3rem;
 }
@@ -38,6 +51,7 @@ a {
     background-color: #FFFFFF;
 } */
 
+/* Feature section */
 #features {
     background-color: #F3B664;
 }
@@ -46,6 +60,7 @@ a {
     transform: rotate(-10deg);
 }
 
+/* Feature section */
 #benefit, feature-card {
     background-color: #9FBB73;
 }
