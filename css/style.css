@@ -35,6 +35,13 @@ a {
 }
 
 /* Hero Section */
+#hero-text {
+    background-image: url('../img/hero-text.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 .hero-title {
     font-size: 3rem;
 }
